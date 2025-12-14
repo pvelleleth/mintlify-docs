@@ -57,12 +57,117 @@
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Associations",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "api-reference/endpoints/associations/associate-clauses-with-feature",
+              "api-reference/endpoints/associations/associate-clauses-with-product",
+              "api-reference/endpoints/associations/associate-features-with-product",
+              "api-reference/endpoints/associations/list-feature-clauses",
+              "api-reference/endpoints/associations/list-product-clauses",
+              "api-reference/endpoints/associations/list-product-features",
+              "api-reference/endpoints/associations/remove-clause-from-feature",
+              "api-reference/endpoints/associations/remove-clause-from-product",
+              "api-reference/endpoints/associations/remove-feature-from-product"
+            ]
+          },
+          {
+            "group": "Clauses",
+            "pages": [
+              "api-reference/endpoints/clauses/add-clause-approvers",
+              "api-reference/endpoints/clauses/create-a-new-clause",
+              "api-reference/endpoints/clauses/delete-a-clause",
+              "api-reference/endpoints/clauses/delete-future-version-of-a-clause",
+              "api-reference/endpoints/clauses/get-a-clause",
+              "api-reference/endpoints/clauses/get-approvers-for-multiple-clauses",
+              "api-reference/endpoints/clauses/get-clause-approvers",
+              "api-reference/endpoints/clauses/get-clause-history",
+              "api-reference/endpoints/clauses/get-clause-version-at-date",
+              "api-reference/endpoints/clauses/get-clause-versions",
+              "api-reference/endpoints/clauses/get-future-version-of-a-clause",
+              "api-reference/endpoints/clauses/get-required-approvers",
+              "api-reference/endpoints/clauses/list-clauses",
+              "api-reference/endpoints/clauses/remove-clause-approver",
+              "api-reference/endpoints/clauses/update-a-clause",
+              "api-reference/endpoints/clauses/update-clause-order"
+            ]
+          },
+          {
+            "group": "Contracts",
+            "pages": [
+              "api-reference/endpoints/contracts/add-contract-activity",
+              "api-reference/endpoints/contracts/generate-a-contract",
+              "api-reference/endpoints/contracts/generate-pdf-for-contract-using-liquidjs-template",
+              "api-reference/endpoints/contracts/get-contract-activity",
+              "api-reference/endpoints/contracts/get-contract-report",
+              "api-reference/endpoints/contracts/get-contract-share",
+              "api-reference/endpoints/contracts/get-contract-variables",
+              "api-reference/endpoints/contracts/get-contract",
+              "api-reference/endpoints/contracts/list-contracts",
+              "api-reference/endpoints/contracts/send-share-link-via-email",
+              "api-reference/endpoints/contracts/update-contract-status",
+              "api-reference/endpoints/contracts/update-contract"
+            ]
+          },
+          {
+            "group": "Features",
+            "pages": [
+              "api-reference/endpoints/features/create-an-independent-feature",
+              "api-reference/endpoints/features/delete-an-independent-feature",
+              "api-reference/endpoints/features/get-an-independent-feature",
+              "api-reference/endpoints/features/list-all-features",
+              "api-reference/endpoints/features/update-an-independent-feature"
+            ]
+          },
+          {
+            "group": "Organizations",
+            "pages": [
+              "api-reference/endpoints/organizations/get-organization-settings",
+              "api-reference/endpoints/organizations/list-organization-approvers-internal",
+              "api-reference/endpoints/organizations/list-organization-approvers",
+              "api-reference/endpoints/organizations/update-organization-settings"
+            ]
+          },
+          {
+            "group": "Products",
+            "pages": [
+              "api-reference/endpoints/products/create-a-new-product",
+              "api-reference/endpoints/products/delete-a-product",
+              "api-reference/endpoints/products/get-a-product",
+              "api-reference/endpoints/products/list-products",
+              "api-reference/endpoints/products/update-a-product"
+            ]
+          },
+          {
+            "group": "Redlines",
+            "pages": [
+              "api-reference/endpoints/redlines/generate-websocket-token"
+            ]
+          },
+          {
+            "group": "Redlining",
+            "pages": [
+              "api-reference/endpoints/redlining/create-or-update-share-link",
+              "api-reference/endpoints/redlining/get-contract-shares",
+              "api-reference/endpoints/redlining/get-organization-redlines",
+              "api-reference/endpoints/redlining/get-shared-redlines",
+              "api-reference/endpoints/redlining/toggle-share-enabled-status",
+              "api-reference/endpoints/redlining/update-redlines-authenticated",
+              "api-reference/endpoints/redlining/update-shared-redlines",
+              "api-reference/endpoints/redlining/validate-share-access"
+            ]
+          },
+          {
+            "group": "System",
+            "pages": [
+              "api-reference/endpoints/system/health-check"
+            ]
+          },
+          {
+            "group": "Templates",
+            "pages": [
+              "api-reference/endpoints/templates/get-a-template",
+              "api-reference/endpoints/templates/get-template-fields",
+              "api-reference/endpoints/templates/list-templates"
             ]
           }
         ]
